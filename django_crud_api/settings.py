@@ -136,7 +136,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Correct scheme
+    'http://localhost:5173', 
+    'https://kind-smoke-01284500f.5.azurestaticapps.net', # Correct scheme
     # Puedes agregar más orígenes aquí si es necesario
 ]
 REST_FRAMEWORK = {
